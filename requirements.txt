@@ -1,0 +1,16 @@
+flask
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+chromadb
+youtube-transcript-api
+pypdf
+beautifulsoup4
+sentence-transformers
+lxml
+requests
