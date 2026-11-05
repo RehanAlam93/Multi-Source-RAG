@@ -5,3 +5,5 @@ multisource_env/
 __pycache__/
 
 chroma_db
+
+uploads/
