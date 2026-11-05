@@ -17,7 +17,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Initialize Groq LLM (Strictly Groq, no Ollama)
+# Initialize Groq LLM (Strictly Groq, )
 groq_api_key = os.getenv("GROQ_API_KEY")
 llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.3, groq_api_key=groq_api_key)
 
