@@ -1,9 +1,11 @@
+# GROQ API KAY
 .env
-
+# virtual environment
 multisource_env/
+# uploaded pdf store backend
+uploads/
+
 
 __pycache__/
-
 chroma_db
 
-uploads/
